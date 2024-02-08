@@ -1,0 +1,10 @@
+.favorites {
+    grid-column: 8 / span 12;
+}
+
+.favorites__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

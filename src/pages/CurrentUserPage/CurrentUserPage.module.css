@@ -1,0 +1,54 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.repo-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.repo-info h2 {
+    font-size: 24px;
+}
+
+.repo-info p {
+    margin: 10px 0;
+}
+
+.repo-info a {
+    color: blue;
+    text-decoration: none;
+}
+
+.repo-info a:hover {
+    text-decoration: underline;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+button {
+
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

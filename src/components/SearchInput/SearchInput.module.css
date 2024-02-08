@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid #0000005f;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.form__button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.form__input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.input-field__search {
+    width: 100%;
+    border: none;
+
+    outline: none;
+}
+
+.input-filed__copy {
+    color: gray;
+    cursor: pointer;
+}
+
+.input-filed__search {
+    color: gray;
+    cursor: pointer;
+}
